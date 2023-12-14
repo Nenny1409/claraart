@@ -1,0 +1,489 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Magic Shop</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+
+  <body>
+    <div class="container">
+      <div class="header">
+        <div class="navbar">
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="sosmed.html">Sosmed</a></li>
+            <li><a href="review.html">Review</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </div>
+        <div class="judulKanan">
+          <h1 class="judul">MagicShop</h1>
+        </div>
+      </div>
+      <div class="hero"></div>
+      <div class="content cf">
+        <div class="main">
+          <h2>New Product</h2>
+
+          <section
+            class="product shadow"
+            data-kategori="Album"
+            data-search="album"
+          >
+            <a href="produkl.html">
+              <img src="img/produk1.jpg" alt="Produk 1" />
+            </a>
+            <h3>BTS-Map Of The Soul</h3>
+            <p>Include photobook,</p>
+            <p class="price">Rp. 340.000</p>
+            <button
+              class="tombol-beli"
+              onclick="tampilkanDetailProduk('BTS-Map Of The Soul : Persona', 'Rp. 340.000', 'Include photobook, CD, film photostrip, 1 photocard, 1 postcard, poster', 'img/produk1.jpg')"
+            >
+              Detail
+            </button>
+            <button
+              class="tombol-keranjang"
+              onclick="tambahkanProdukKeKeranjang('BTS-Map Of The Soul', 340000)"
+            >
+              Keranjang</button
+            ><br />
+          </section>
+
+          <section class="product shadow" data-kategori="Photocard">
+            <a href="produk10.html">
+              <img src="img/produk10.jpg" alt="Produk 10" />
+            </a>
+            <h3>BTS-RUN Photocard</h3>
+            <p>2 side photocard, 7 pieces</p>
+            <p class="price">Rp. 63.000</p>
+            <button
+              class="tombol-beli"
+              onclick="tampilkanDetailProduk('BTS-RUN Photocard', 'Rp. 63.000', '2 side photocard, 7 pieces', 'img/produk10.jpg')"
+            >
+              Detail
+            </button>
+            <button
+              class="tombol-keranjang"
+              onclick="tambahkanProdukKeKeranjang('BTS-RUN Photocard', 63000)"
+            >
+              Keranjang</button
+            ><br />
+          </section>
+
+          <section class="product shadow" data-kategori="Lighstick">
+            <a href="produk8.html">
+              <img src="img/produk8.jpg" alt="Produk 8" />
+            </a>
+            <h3>BTS-Lightstick Ver.3</h3>
+            <p>Include box and battery</p>
+            <p class="price">Rp. 450.000</p>
+            <button
+              class="tombol-beli"
+              onclick="tampilkanDetailProduk('BTS-Lightstick Ver.3', 'Rp. 450.000', 'Include box and battery', 'img/produk8.jpg')"
+            >
+              Detail
+            </button>
+            <button
+              class="tombol-keranjang"
+              onclick="tambahkanProdukKeKeranjang('BTS-Lightstick Ver.3', 450000)"
+            >
+              Keranjang</button
+            ><br />
+          </section>
+
+          <section class="product shadow" data-kategori="Photocard">
+            <a href="produk11.html">
+              <img src="img/produk11.jpg" alt="Produk 11" />
+            </a>
+            <h3>BTS-PROOF Photocard</h3>
+            <p>2 side photocard, 7 pieces</p>
+            <p class="price">Rp. 70.000</p>
+            <button
+              class="tombol-beli"
+              onclick="tampilkanDetailProduk('BTS-PROOF Photocard', 'Rp. 70.000', '2 side photocard, 7 pieces', 'img/produk11.jpg')"
+            >
+              Detail
+            </button>
+            <button
+              class="tombol-keranjang"
+              onclick="tambahkanProdukKeKeranjang('BTS-PROOF Photocard', 70000)"
+            >
+              Keranjang</button
+            ><br />
+          </section>
+
+          <section class="product shadow" data-kategori="Lighstick">
+            <a href="produk9.html">
+              <img src="img/produk9.jpg" alt="Produk 6" />
+            </a>
+            <h3>BTS-Lightstick Ver.4</h3>
+            <p>Include box and battery</p>
+            <p class="price">Rp. 530.000</p>
+            <button
+              class="tombol-beli"
+              onclick="tampilkanDetailProduk('BTS-Lightstick Ver.4', 'Rp. 530.000', 'Include box and battery', 'img/produk9.jpg')"
+            >
+              Detail
+            </button>
+            <button
+              class="tombol-keranjang"
+              onclick="tambahkanProdukKeKeranjang('BTS-Lightstick Ver.4', 530000)"
+            >
+              Keranjang</button
+            ><br />
+          </section>
+
+          <section class="product shadow" data-kategori="Photocard">
+            <a href="produk12.html">
+              <img src="img/produk12.jpg" alt="Produk 12" />
+            </a>
+            <h3>BTS-DICON Photocard</h3>
+            <p>2 side photocard, 7 pieces</p>
+            <p class="price">Rp. 110.000</p>
+            <button
+              class="tombol-beli"
+              onclick="tampilkanDetailProduk('BTS-DICON Photocard', 'Rp. 110.000', '2 side photocard, 7 pieces', 'img/produk12.jpg')"
+            >
+              Detail
+            </button>
+            <button
+              class="tombol-keranjang"
+              onclick="tambahkanProdukKeKeranjang('BTS-RUN Photocard', 110000)"
+            >
+              Keranjang</button
+            ><br />
+          </section>
+
+          <section class="product shadow" data-kategori="Album">
+            <a href="produk2.html">
+              <img src="img/produk2.jpg" alt="Produk 2" />
+            </a>
+            <h3>BTS-2COOL 4SKOOL</h3>
+            <p>+ HATS Card Is included</p>
+            <p class="price">Rp. 282.000</p>
+            <button
+              class="tombol-beli"
+              onclick="tampilkanDetailProduk('BTS-2COOL 4SKOOL', 'Rp. 282.000', '+ HATS Card Is included', 'img/produk2.jpg')"
+            >
+              Detail
+            </button>
+            <button
+              class="tombol-keranjang"
+              onclick="tambahkanProdukKeKeranjang('BTS-2COOL 4SKOOL', 282000)"
+            >
+              Keranjang</button
+            ><br />
+          </section>
+
+          <section class="product shadow" data-kategori="Lighstick">
+            <a href="produk7.html">
+              <img src="img/produk7.jpg" alt="Produk 7" />
+            </a>
+            <h3>BTS-Lightstick Ver.2</h3>
+            <p>Include box and battery</p>
+            <p class="price">Rp. 425.000</p>
+            <button
+              class="tombol-beli"
+              onclick="tampilkanDetailProduk('BTS-Lightstick Ver.2', 'Rp. 425.000', 'Include box and battery', 'img/produk7.jpg')"
+            >
+              Detail
+            </button>
+            <button
+              class="tombol-keranjang"
+              onclick="tambahkanProdukKeKeranjang('BTS-Lightstick Ver.2', 425000)"
+            >
+              Keranjang</button
+            ><br />
+          </section>
+
+          <section class="product shadow" data-kategori="Album">
+            <a href="produk3.html">
+              <img src="img/produk3.jpg" alt="Produk 3" />
+            </a>
+            <h3>BTS-BE</h3>
+            <p>Include 1 poster, 2 photocard, 1</p>
+            <p class="price">Rp. 579.000</p>
+            <button
+              class="tombol-beli"
+              onclick="tampilkanDetailProduk('BTS-BE', 'Rp. 579.000', 'Include 1 poster, 2 photocard, 1 polaroid, 1 postcard', 'img/produk3.jpg') "
+            >
+              Detail
+            </button>
+            <button
+              class="tombol-keranjang"
+              onclick="tambahkanProdukKeKeranjang('BTS-BE', 579000)"
+            >
+              Keranjang</button
+            ><br />
+          </section>
+
+          <section class="product shadow" data-kategori="Album">
+            <a href="produk4.html">
+              <img src="img/produk4.jpg" alt="Produk 4" />
+            </a>
+            <h3>BTS-Butter</h3>
+            <p>+ HATS Card Is included</p>
+            <p class="price">Rp. 378.000</p>
+            <button
+              class="tombol-beli"
+              onclick="tampilkanDetailProduk('BTS-Butter', 'Rp. 378.000', '+ HATS Card Is included (Counted on Hanteo Global Chart)', 'img/produk4.jpg')"
+            >
+              Detail
+            </button>
+            <button
+              class="tombol-keranjang"
+              onclick="tambahkanProdukKeKeranjang('BTS-Butter', 378000)"
+            >
+              Keranjang</button
+            ><br />
+          </section>
+
+          <section class="product shadow" data-kategori="Album">
+            <a href="produk5.html">
+              <img src="img/produk5.jpg" alt="Produk 5" />
+            </a>
+            <h3>BTS-Proof</h3>
+            <p>Include 2 pothocard, cd, postcard</p>
+            <p class="price">Rp. 1.200.000</p>
+            <button
+              class="tombol-beli"
+              onclick="tampilkanDetailProduk('BTS-Proof', 'Rp. 1.200.000', 'Include 2 pothocard, cd, postcard, photostrip, photobook', 'img/produk5.jpg')"
+            >
+              Detail
+            </button>
+            <button
+              class="tombol-keranjang"
+              onclick="tambahkanProdukKeKeranjang('BTS-Proof', 1200000)"
+            >
+              Keranjang</button
+            ><br />
+          </section>
+
+          <section class="product shadow" data-kategori="Lighstick">
+            <a href="produk6.html">
+              <img src="img/produk6.jpg" alt="Produk 6" />
+            </a>
+            <h3>BTS-Lightstick Ver.1</h3>
+            <p>Include box and battery</p>
+            <p class="price">Rp. 380.000</p>
+            <button
+              class="tombol-beli"
+              onclick="tampilkanDetailProduk('BTS-Lightstick Ver.1', 'Rp. 380.000', 'Include box and battery', 'img/produk6.jpg')"
+            >
+              Detail
+            </button>
+            <button
+              class="tombol-keranjang"
+              onclick="tambahkanProdukKeKeranjang('BTS-Lightstick Ver.1', 380000)"
+            >
+              Keranjang</button
+            ><br />
+          </section>
+        </div>
+        <div class="sidebar">
+          <h3>Kategori</h3>
+          <div class="kategori-pilihan">
+            <input
+              type="text"
+              id="cariBarang"
+              placeholder="Cari Barang"
+              onkeyup="cariBarang ()"
+            />
+            <button onclick="filterKategori('All')">All</button><br />
+            <button onclick="filterKategori('Album')">Album</button><br />
+            <button onclick="filterKategori('Lighstick')">Lighstick</button
+            ><br />
+            <button onclick="filterKategori('Photocard')">Photocard</button
+            ><br />
+          </div>
+          <br />
+          <br />
+          <div class="keranjang">
+            <h3>Keranjang Belanja</h3>
+            <ul id="daftar-keranjang"></ul>
+            <p>Total Belanja : <span id="total-belanja">Rp. 0.00</span></p>
+            <button id="checkout" onclick="checkout()">Checkout</button>
+          </div>
+        </div>
+      </div>
+      <div class="footer">
+        <p class="copyright">Copyright 2023. Magicshop</p>
+      </div>
+    </div>
+    <script>
+      function tampilkanDetailProduk(
+        namaProduk,
+        hargaProduk,
+        detailProduk,
+        gambarProduk
+      ) {
+        // Buat elemen popup
+        const popup = document.createElement("div");
+        popup.className = "popup";
+
+        // Buat konten popup
+        const popupContent = document.createElement("div");
+        popupContent.className = "popup-content";
+
+        // Tambahkan tombol close
+        const closeBtn = document.createElement("span");
+        closeBtn.className = "popup-close";
+        closeBtn.innerHTML = "&times;";
+        closeBtn.onclick = function () {
+          tutupPopup();
+        };
+
+        // Tambahkan gambar produk
+        const img = document.createElement("img");
+        img.src = gambarProduk;
+        img.alt = namaProduk;
+
+        // Tambahkan nama produk
+        const nama = document.createElement("h2");
+        nama.textContent = namaProduk;
+
+        // Tambahkan harga produk
+        const harga = document.createElement("p");
+        harga.className = "price";
+        harga.textContent = "Harga: $" + hargaProduk;
+
+        // Tambahkan detail produk
+        const detail = document.createElement("p");
+        detail.textContent = detailProduk;
+
+        // Tambahkan tombol beli
+        const tombolBeli = document.createElement("button");
+        tombolBeli.className = "tombol-beli";
+        tombolBeli.textContent = "Beli Sekarang";
+
+        // Tambahkan elemen ke dalam popup
+        popupContent.appendChild(closeBtn);
+        popupContent.appendChild(img);
+        popupContent.appendChild(nama);
+        popupContent.appendChild(harga);
+        popupContent.appendChild(detail);
+        popupContent.appendChild(tombolBeli);
+
+        popup.appendChild(popupContent);
+
+        // Tambahkan popup ke dalam body
+        document.body.appendChild(popup);
+      }
+
+      function tutupPopup() {
+        const popup = document.querySelector(".popup");
+        if (popup) {
+          document.body.removeChild(popup);
+        }
+      }
+    </script>
+
+    <script>
+      function filterKategori(kategori) {
+        const produk = document.querySelectorAll(".product");
+
+        for (const produkItem of produk) {
+          const kategoriProduk = produkItem.getAttribute("data-kategori");
+
+          if (kategori === "All" || kategori === kategoriProduk) {
+            produkItem.style.display = "block";
+          } else {
+            produkItem.style.display = "none";
+          }
+        }
+      }
+    </script>
+
+    <script>
+      function cariBarang() {
+        const inputPencarian = document.getElementById("cariBarang");
+        const kataKunci = inputPencarian.value.toLowerCase();
+        constproduk = document.querySelectorAll(".product");
+
+        for (const produkItem of produk) {
+          const namaProduk = produkItem
+            .querySelector("h3")
+            .textContent.toLowerCase();
+          constdeskripsiProduk = produkItem
+            .querySelector("p")
+            .textContent.toLowerCase();
+
+          function tutupPopup() {
+            const popup = document.querySelector(".popup");
+
+            if (popup) {
+              document.body.removeChild(popup);
+            }
+          }
+        }
+      }
+    </script>
+
+    <script>
+      function cariBarang() {
+        const inputPencarian = document.getElementById("cariBarang");
+        const kataKunci = inputPencarian.value.toLowerCase();
+        const produk = document.querySelectorAll(".product");
+        for (const produkItem of produk) {
+          const namaProduk = produkItem
+            .querySelector("h3")
+            .textContent.toLocaleLowerCase();
+          const deskripsiProduk = produkItem
+            .querySelector("p")
+            .textContent.toLocaleLowerCase();
+          if (
+            namaProduk.includes(kataKunci) ||
+            deskripsiProduk.includes(kataKunci)
+          ) {
+            produkItem.style.display = "block";
+          } else {
+            produkItem.style.display = "none";
+          }
+        }
+      }
+    </script>
+
+    <script>
+      const keranjang = [];
+      const totalBelanja = 0;
+
+      function tambahkanProdukKeKeranjang(namaProduk, harga) {
+        keranjang.push({
+          nama: namaProduk,
+          jumlah: 1,
+          harga: harga,
+        });
+        updateKeranjang();
+      }
+
+      function updateKeranjang() {
+        const daftarKeranjang = document.getElementById("daftar-keranjang");
+        const totalBelanjaElem = document.getElementById("total-belanja");
+        daftarKeranjang.innerHTML = "";
+        let total = 0;
+        keranjang.forEach((produk) => {
+          const item = document.createElement("li");
+          item.textContent = `${produk.nama} - Rp ${produk.harga.toFixed(2)}`;
+          daftarKeranjang.appendChild(item);
+          total += produk.harga;
+        });
+        totalBelanjaElem.textContent = `Rp ${total.toFixed(2)}`;
+      }
+
+      function checkout() {
+        //Implementasi proses checkout (misalnya, pembayaran dan pengiriman)
+        //Anda dapat menambahkan kode sesuai kebutuhan
+
+        //menambah data keranjang ke sessionStorage
+        //jika halaman di refresh maka sessionStorage akan hilang
+        sessionStorage.setItem("keranjangBelanja", JSON.stringify(keranjang));
+        //membuka halaman checkout ke tab baru menggunakan _blank
+        window.open("checkout.html", "_blank");
+      }
+    </script>
+  </body>
+</html>
